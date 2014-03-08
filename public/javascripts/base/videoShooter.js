@@ -52,6 +52,13 @@ define(['Animated_GIF'], function (Animated_GIF) {
 
   VideoShooter.getCropDimensions = function (width, height, gifWidth, gifHeight) {
     var result = { width: 0, height: 0, scaledWidth: 0, scaledHeight: 0 };
+    if (height == 480) { // firefox locks res to 640x480 sadly
+   	    result.width = gifWidth;
+   	    result.height = gifHeight;
+	    result.scaledHeight = (height-360) * 2;
+	    result.scaledWidth = Math.round((height-360) * (result.width/result.height));
+	    return result;
+    }
     if (width > height) {
       result.width = Math.round(width * (gifHeight / height)) - gifWidth;
       result.scaledWidth = Math.round(result.width * (height / gifHeight));

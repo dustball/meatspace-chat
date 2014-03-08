@@ -7,13 +7,20 @@ Note that we are not taking any new features or changes - if you feel like somet
 
 If you want to create a browser add-on or plugin feel free to do so and follow the API instructions below. Then send us a pull request with your link at [https://github.com/meatspaces/meatspace-chat-hackers](https://github.com/meatspaces/meatspace-chat-hackers).
 
+### Prerequisites
+* [Node.js](http://nodejs.org/)
+* [Homebrew](http://brew.sh/)
+* [Redis](http://redis.io/)
+
 ## Setting up
+    redis-server &
     brew install zeromq
     cp local.json-dist local.json
     cp clients.json-dist clients.json
     cp whitelist.json-dist whitelist.json
     npm install
     npm -g install nodemon
+    npm -g install bower
     bower install
     npm run-script grunt build
     npm start

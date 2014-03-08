@@ -354,7 +354,7 @@ a.medium {
 .input {
     width: 80%;
     box-sizing: border-box;
-    margin-left: 171px;
+    margin-left: 216px;
     padding: 0 100px 0 0;
     border: none;
     outline: none;
@@ -410,7 +410,7 @@ input::-webkit-input-placeholder {
     background: #f181ad;
     content: "";
     bottom: 0;
-    left: 171px;
+    left: 216px;
 }
 
 #chat-container li img {
@@ -418,7 +418,7 @@ input::-webkit-input-placeholder {
     position: absolute;
     top: 0;
     left: 18px;
-    width: 135px;
+    width: 180px;
 }
 
 #chat-container .out-of-view img {
@@ -431,7 +431,7 @@ input::-webkit-input-placeholder {
     line-height: 1.5rem;
     min-width: 182px;
     overflow: hidden;
-    padding: 14px 70px 18px 171px;
+    padding: 14px 70px 18px 216px;
     font-weight: 300;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -509,7 +509,7 @@ ul li.on {
     font-size: 1.5rem;
     font-weight: 300;
     width: 100%;
-    padding: 10px 18px 14px 171px;
+    padding: 10px 18px 14px 216px;
     height: 27px;
     margin: 0;
     border: none;
@@ -533,7 +533,7 @@ ul li.on {
 
 #videoHolder {
   position: absolute;
-  width: 135px;
+  width: 180px;
   height: 101px;
   bottom: 0;
   left: 18px;
@@ -543,14 +543,14 @@ ul li.on {
 }
 
 #videoHolder video {
-    width: 135px;
+    width: 180px;
     height: 101px;
 }
 
 #footer svg.progress {
     z-index: 99;
     opacity: 0;
-    width: 135px;
+    width: 180px;
     height: 101px;
     position: absolute;
     bottom: 0;
@@ -598,7 +598,7 @@ ul li.on {
     }
 
     #chat-container li:after {
-        left: 153px;
+        left: 198px;
     }
 
     #chat-container li p {

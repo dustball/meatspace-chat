@@ -239,7 +239,7 @@ define(['jquery', './base/transform', 'gumhelper', './base/videoShooter', 'finge
           return;
         }
 
-        var gifWidth = 135;
+        var gifWidth = 180;
         var gifHeight = 101;
         var cropDimens =
           VideoShooter.getCropDimensions(videoWidth, videoHeight, gifWidth, gifHeight);
